@@ -1,0 +1,41 @@
+/* Styling for a single card */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling inside the card */
+.card img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+/* Title styling inside the card */
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Styling for the card grid */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Ensures each card takes up equal space and wraps as needed */
+.card {
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+}

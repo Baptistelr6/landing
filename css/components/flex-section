@@ -1,0 +1,7 @@
+.product-image {
+  width: 200px; /* Adjust to desired width */
+  max-width: 100%; /* Ensures it scales down on smaller screens */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

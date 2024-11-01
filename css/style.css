@@ -1,0 +1,64 @@
+.banner {
+  background-image: url('../images/michel et augustin.png'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire banner */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  color: #FFFFFF; /* White text for good contrast on the background */
+  text-align: center;
+  padding: 80px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.banner h1 {
+  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+  font-size: 3rem;
+  color: #FF5722; /* Michel et Augustin’s signature orange */
+  margin: 0;
+}
+
+.banner p {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  color: #FFFFFF; /* Ensures readability */
+  margin: 10px 0 20px;
+}
+.contact-form-container {
+    max-width: 400px;
+    margin: 40px auto; /* Space above and below the form */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px;
+    background-color: #fff; /* White background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between fields */
+}
+
+label {
+    display: block; /* Labels on separate lines */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5722; /* Michel et Augustin’s orange */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 1rem; /* Font size */
+}
+
+button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+}
